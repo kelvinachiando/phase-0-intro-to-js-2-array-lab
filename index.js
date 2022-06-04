@@ -27,7 +27,6 @@ function prependCat (name){
     return newCats;
 }
     
-
 function removeLastCat(){
     const newCats=[...cats.slice(0,-1), ...cats.slice(3)];
     return newCats;
